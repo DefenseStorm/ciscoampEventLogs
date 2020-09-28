@@ -1,0 +1,14 @@
+# conf file must be in same directory as script
+
+[json]
+app_name = Cisco AMP Event Logs
+version = 1.0
+
+[ciscoamp]
+server_url = https://site.console.ensilo.com
+state_dir = /usr/local/bin/ensiloEventLogs/state
+time_offset = 5
+pid_file = ./ciscoampEventLogs.pid
+api_client_id =
+api_key =
+

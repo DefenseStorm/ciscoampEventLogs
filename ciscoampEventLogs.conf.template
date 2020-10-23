@@ -5,8 +5,8 @@ app_name = Cisco AMP Event Logs
 version = 1.0
 
 [ciscoamp]
-server_url = https://site.console.ensilo.com
-state_dir = /usr/local/bin/ensiloEventLogs/state
+server_url = https://api.amp.cisco.com
+state_dir = ./state
 time_offset = 5
 pid_file = ./ciscoampEventLogs.pid
 api_client_id =
